@@ -1,6 +1,6 @@
-# Quantum Billiards — Terminal
+# Quantum Billiards 
 
-A single-particle 2D quantum mechanics simulation, solved exactly and rendered live in your terminal. No GUI, no browser, no external dependencies beyond LAPACK/BLAS.
+A single-particle 2D quantum mechanics simulation, solved exactly and rendered live.
 
 ## What it actually does
 
