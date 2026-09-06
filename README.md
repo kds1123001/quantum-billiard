@@ -10,6 +10,8 @@ A single-particle 2D quantum mechanics simulation, solved exactly and rendered l
 - Projects an initial Gaussian wavepacket onto that eigenbasis.
 - Every frame is computed as `psi(t) = sum_n c_n * exp(-i*E_n*t) * phi_n`, evaluated with a single BLAS `zgemv` call. No time-stepping error — evolution is unitary to machine precision (verified: probability norm stays at 1.000000 across a full run).
 
+  (phew im tired of writing)
+
 This is a real quantum mechanics simulation of one particle in a 2D potential landscape — not a many-body electron simulator, not a general-purpose physics engine. That's the honest scope.
 
 ## Requirements
